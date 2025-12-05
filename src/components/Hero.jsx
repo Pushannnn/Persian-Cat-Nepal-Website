@@ -337,11 +337,11 @@ const Hero = () => {
                                 Purchase a Persian kitten in Nepal at a wholesale price, with a 100% breed guarantee.
                             </p>
 
-                            <div className="inline-flex items-center mt-4 px-5 py-2 bg-gradient-to-r from-green-400 to-emerald-400 rounded-full text-black font-bold text-base shadow-lg animate-pulse-custom">
+                            <div className="inline-flex items-center mt-4 px-5 py-2 bg-gradient-to-r from-gray-400 to-gray-700 rounded-full text-black font-bold text-base shadow-lg animate-pulse-custom">
                                 <svg className="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
                                     <path fillRule="evenodd" d="M4 4a2 2 0 00-2 2v4a2 2 0 002 2V6h10a2 2 0 00-2-2H4zm2 6a2 2 0 012-2h8a2 2 0 012 2v4a2 2 0 01-2 2H8a2 2 0 01-2-2v-4zm6 4a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
                                 </svg>
-                                Starting at ₹15,000/kitten
+                                Starting at ₹18,000/kitten
                             </div>
                         </div>
 
@@ -390,7 +390,7 @@ const Hero = () => {
                         <div className={`flex flex-wrap items-center mt-8 space-x-6 text-xs text-white/60 transition-all duration-1000 animate-delay-700 ${isLoaded ? 'animate-fade-in-up' : 'opacity-0 translate-y-10'
                             }`}>
                             <div className="flex items-center space-x-2">
-                                <div className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></div>
+                                <div className="w-2 h-2 bg-gray-400 rounded-full animate-pulse"></div>
                                 <span>100% Breed Guarantee</span>
                             </div>
                             <div className="flex items-center space-x-2">

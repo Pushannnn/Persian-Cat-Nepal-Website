@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-export const Footer = () => {
+ const Footer = () => {
     const [isVisible, setIsVisible] = useState(false);
     const [currentYear] = useState(new Date().getFullYear());
 
@@ -343,3 +343,5 @@ export const Footer = () => {
         </footer>
     );
 };
+
+export default Footer;
